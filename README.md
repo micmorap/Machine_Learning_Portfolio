@@ -1,7 +1,7 @@
 # Machine_Learning_Portfolio
 Hello! This is my ML Portfolio in Python.
 
-# 💫 About Me:
+# About Me:
 Hello, I'm Michael, a Data scientist who appreciate build analytical <br>solutions through multiple tools how Python, Data bases, SQL, <br>data visualization and data engineering tools, among others, <br>with the aim of generate impact and added value to improve <br>decision-making and optimise production processes to help <br>in internal teams to improve the productivity and therefore <br>this projects would be useful.<br><br>I like learn new applied technologies and theoretical concepts <br>related to Machine Learning, Data Engineering, <br>Maths, soft skills, among others. All of this, <br>with the goal of helping to the teams and also that <br>they can understand the purpose of the projects and <br>how can help them.<br><br>Currently, I'm working as Fraud Risk Data Scientist at PayU.<br><br>Skills: Python, SQL, Data modeling, DBT, Airflow, Data visualization, <br>Snowflake and Databases.<br><br>
 
 
