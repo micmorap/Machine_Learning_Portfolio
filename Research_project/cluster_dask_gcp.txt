@@ -1,0 +1,17 @@
+export REGION=europe-west4
+export CLUSTER_NAME=mike-bq-test1
+export NUM_WORKERS=2
+
+gcloud dataproc clusters create $CLUSTER_NAME  \
+    --region $REGION \
+    --zone europe-west4-c \
+    --image-version=2.0-ubuntu18 \
+    --master-machine-type n1-standard-8 \
+    --num-workers $NUM_WORKERS \
+    --worker-machine-type n1-standard-8 \
+    --initialization-actions gs://goog-dataproc-initialization-actions-${REGION}/dask/dask.sh \
+    --optional-components=JUPYTER,ZEPPELIN \
+    --metadata dask-runtime=yarn \
+    --initialization-action-timeout=60m \
+    --enable-component-gateway \
+    --subnet default
